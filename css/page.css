@@ -1,0 +1,44 @@
+.container h3 {
+  font-family: Ostrich, Helvetica Neue, sans-serif;
+  font-size: 2.5em;
+  font-weight: 300;
+  clear: both;
+}
+.container h4 {
+  font-family: Ostrich, Helvetica Neue, sans-serif;
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
+.initial {
+  width: 80%;
+  margin: auto;
+  font-size: 1.4em;
+}
+.description {
+  width: 40%;
+  float: left;
+}
+.eventimg {
+  width: 40%;
+  float: right;
+}
+
+.eventimg img {
+  width: 100%;
+}
+.container {
+  clear: both;
+  font-size: 1.2em;
+}
+
+/* -- MEDIA QUERIES START HERE -- */
+@media screen and (min-width: 770px) {
+  .grid4 {
+    width: 30%;
+    float: left;
+  }
+
+}
+
+}
