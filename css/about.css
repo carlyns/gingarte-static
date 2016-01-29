@@ -118,8 +118,40 @@ hr {
 }
 .troupe {
 }
+.chicago .partnerlogos {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.chicago .plogo {
+	padding: 2%;
+	flex: none;
+	width: 20%;
+}
+.chicago img {
+	width: 100%;
+}
+.chicago .alsopartners {
+	clear: both;
+}
+
+.button {
+	border: 1px solid rgba(3,94,123,1);
+  margin: 0 auto;
+  width: 50%;
+	padding: 2%;
+}
 
 /*------MEDIA QUERIES START HERE ----------*/
+
+@media screen and (max-width: 410px) {
+	.chicago .plogo {
+		width: 40%;
+}
+}
+
 @media screen and (min-width: 550px) {
 	.description {
 	}
@@ -163,5 +195,11 @@ hr {
 		display: block;
 	}
 
+}
+
+
+@media screen and (min-width: 770px) {
+	.chicago .plogo {
+		width: 12%;
 	}
 }

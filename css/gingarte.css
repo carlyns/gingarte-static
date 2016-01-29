@@ -24,6 +24,19 @@ body {
   font-weight: 300;
   margin: 0;
 }
+
+.button {
+  border: 1px solid   rgba(3,94,123,1);
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.middle .button {
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 5%;
+}
+
 header {
   text-align: center;
 }
@@ -234,14 +247,19 @@ LARGER SCREEN:
   text-align: center;
 }
 .featpartners {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
   overflow: auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .partner {
-  width: 50px;
+  width: 25%;
   float: left;
+  padding: 3%;
 }
 .partner img {
   width: 100%;
@@ -386,6 +404,8 @@ footer img {
     width: 50%;
     float: left;
   }
+
+
 
   footer img {
     width: 50px;

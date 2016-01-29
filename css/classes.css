@@ -84,12 +84,10 @@ html {
 .payment ul {
   text-align: left;
 }
-.button-purchase {
-  border: 1px solid black;
-  text-align: center;
+.button {
   margin: 0 auto;
   width: 50%;
-  text-transform: uppercase;
+  border-color: white;
 }
 .payment .grid4 {
   padding-bottom: 5%;
@@ -202,7 +200,7 @@ html {
   .payment .price {
     padding: 5%;
   }
-  .button-purchase {
+  .payment .button {
     width: 70%;
     position: absolute;
     bottom: 5%;
