@@ -1,14 +1,19 @@
 /*-------RESOURCES----------*/
 .container {
+	width: 85%;
 }
-h2 {
+.container h1 {
 	border-bottom: 3px double rgba(3,94,123,1);
 	padding-bottom: 3%;
+	text-align: center;
 }
 
+
 .trainbetter {
-	width: 85%;
 	margin: 5% auto 15% auto;
+}
+.trainbetter .grid {
+
 }
 
 .trainbetter img {
@@ -30,23 +35,21 @@ h2 {
 }
 
 .howto {
-	width: 85%;
 	margin: 0 auto 15% auto;
 	clear: both;
 }
 
 .favs {
-	width: 85%;
 	margin: 0 auto 15% auto;
 	clear: both;
 }
 
-h3 {
+h2 {
 	font-family: Ostrich, Helvetica Neue, sans-serif;
   font-size: 2em;
   font-weight: 200;
 }
-.trainbetter h3 {
+.trainbetter h2 {
 	text-align: center;
 }
 .grid6 i {
@@ -85,12 +88,12 @@ h3 {
 	.favs {
 		margin-bottom: 300px;
 	}
-		.grid4 {
+
+	.grid4 {
 	  width: 30%;
 	  margin-right: 3%;
 	  float: left;
 	}
-
 	.grid3 {
 	  width: 23%;
 	  margin-right: 2%;

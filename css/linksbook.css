@@ -1,10 +1,11 @@
 /*-------LINKS & BOOK US----------*/
 
-.container h2 {
+.container h1 {
 	border-bottom: 3px double rgba(3,94,123,1);
 	padding-bottom: 3%;
+	text-align: center;
 }
-.container h3 {
+.container h2 {
 	font-size: 1.7em;
 	font-family: Ostrich, Helvetica Neue, sans-serif;
 }
@@ -36,7 +37,7 @@
 		width: 600px;
 		margin: 0 auto;
 	}
-	.container h3 {
+	.container h2 {
 	}
 	.booking {
 	width: 500px;

@@ -1,19 +1,25 @@
-.container h3 {
-  font-family: Ostrich, Helvetica Neue, sans-serif;
-  font-size: 2.5em;
-  font-weight: 300;
+.container body {
+
+}
+
+.container h1 {
+  text-align: center;
+}
+.container h2 {
+  font-size: 3em;
   clear: both;
 }
-.container h4 {
+.container h3 {
   font-family: Ostrich, Helvetica Neue, sans-serif;
   font-size: 1.5em;
   font-weight: 300;
 }
 
 .initial {
-  width: 80%;
-  margin: auto;
   font-size: 1.4em;
+  overflow: auto;
+  border-bottom: 3px double rgba(3,94,123,1);
+	padding-bottom: 3%;
 }
 .description {
   width: 40%;
@@ -26,10 +32,6 @@
 
 .eventimg img {
   width: 100%;
-}
-.container {
-  clear: both;
-  font-size: 1.2em;
 }
 
 /* -- MEDIA QUERIES START HERE -- */

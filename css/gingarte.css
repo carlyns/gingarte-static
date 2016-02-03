@@ -12,7 +12,18 @@ header {
 h1 {
   font-family: Ostrich, Helvetica Neue, sans-serif;
   font-weight: 100;
+  font-size: 4em;
+}
+h2 {
+  font-family: Ostrich, Helvetica Neue, sans-serif;
+  font-weight: 100;
   font-size: 2em;
+}
+.brandhead h1 {
+  font-size: 2em;
+}
+.brandhead h2 {
+  font-size: 4em;
 }
 
 .logo img {
@@ -48,12 +59,7 @@ header {
   display: none;
 }
 
-h2 {
-  font-family: Ostrich, Helvetica Neue, sans-serif;
-  font-weight: 100;
-  font-size: 4em;
-  text-align: center;
-}
+
 a {
   text-decoration: none;
   color: black;
@@ -194,6 +200,7 @@ LARGER SCREEN:
 
 /* -- FRONT PAGE NEWS STYLING -- */
 .items h2 {
+  font-size: 4em;
   text-align: left;
   margin-top: 0;
   margin-bottom: 0;
@@ -228,9 +235,7 @@ LARGER SCREEN:
 .features h2 {
   margin-top: 0;
   text-align: center;
-  font-family: Ostrich, Helvetica Neue, sans-serif;
   font-size: 2em;
-  font-weight: 200;
 }
 .capostar {
   padding-top: 5%;

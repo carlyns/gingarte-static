@@ -2,13 +2,15 @@
 	background-color: rgba(237,234,255,1);
 }
 */
-h3 {
-	font-size: 3em;
-	font-family: Ostrich, Helvetica Neue, sans-serif;
+h2 {
 	text-align: center;
-	font-weight: 100;
+	font-size: 3em;
 }
-
+h3 {
+	font-weight: 500;
+}
+body {
+}
 .section-collapsed {
 	padding: 3%;
 	overflow: auto;
@@ -16,9 +18,7 @@ h3 {
 	color: rgba(3,94,123,1);
 	text-align: center;
 }
-.section-collapsed h2 {
-	font-size: 4em;
-}
+
 .section-title {
 	width: 200px;
 	margin: 0 auto;
@@ -63,15 +63,18 @@ a:hover .fa-chevron-down {
 .brazil {
 	display: none;
 	padding: 0 3%;
+	font-size: 1.1em;
 }
 .group {
 	display: none;
 	padding: 0 3% 5% 3%;
 	clear: both;
+	font-size: 1.1em;
 }
 .chicago {
 	display: none;
 	padding: 0 3%;
+	font-size: 1.1em;
 }
 
 

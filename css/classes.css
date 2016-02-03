@@ -16,7 +16,9 @@ html {
   width: 80%;
   margin: 0 auto;
 }
-
+h1 {
+  text-align: center;
+}
 
 .locations .grid3 {
   border-top: 3px double rgba(3,94,123,1);
@@ -47,7 +49,7 @@ html {
 .payment {
 	clear: both;
 }
-.payment h2 {
+.payment h1 {
   padding-bottom: 2%;
   border-bottom: 3px double rgba(3,94,123,1);
   width: 100%;
@@ -103,7 +105,7 @@ html {
 	clear: both;
   text-align: center;
 }
-.special h2 {
+.special h1 {
   padding-bottom: 2%;
   border-bottom: 3px double rgba(3,94,123,1);
   margin: 0 10%;
@@ -145,7 +147,7 @@ html {
   margin: 2% 6%;
   clear: both;
 }
-.otherclass h2 {
+.otherclass h1 {
   font-size: 2em;
   text-align: center;
 }
@@ -160,8 +162,7 @@ html {
   padding: 2% 3%;
   overflow: auto;
 }
-.otherclass h2 {
-}
+
 .description {
   text-align: left;
 }
@@ -265,7 +266,7 @@ html {
   width: 90%;
   margin: 0 auto;
   }
-  .special h3 {
+  .special h1 {
     border: none;
     text-align: left;
   }

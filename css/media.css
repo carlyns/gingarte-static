@@ -10,7 +10,7 @@
 .photos, .videos, .art {
 	text-align: center;
 }
-h2 {
+.container h1 {
 	margin: 5%;
 }
 .fliparrow {
