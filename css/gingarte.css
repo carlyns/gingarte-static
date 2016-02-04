@@ -13,11 +13,13 @@ h1 {
   font-family: Ostrich, Helvetica Neue, sans-serif;
   font-weight: 100;
   font-size: 4em;
+  text-align: center;
 }
 h2 {
   font-family: Ostrich, Helvetica Neue, sans-serif;
   font-weight: 100;
   font-size: 2em;
+  text-align: center;
 }
 .brandhead h1 {
   font-size: 2em;
@@ -37,7 +39,7 @@ body {
 }
 
 .button {
-  border: 1px solid   rgba(3,94,123,1);
+  border: 1px solid  rgba(3,94,123,1);
   text-align: center;
   text-transform: uppercase;
 }
@@ -75,16 +77,12 @@ SMALL SCREEN:
 - no blue menu section
 - appear on scroll to front image: only menu icon & backtotop arrow (or double chevron) in corner
 - keep menu icon & backtotop arrow fixed on scroll
-- integrate "Latest News" to this top bar
-- on all pages except index.html show "Latest News" bulletin bar
 - stick bulletin bar to top on scroll
 
 COLLAPSIBLE SECTIONS:
 - swap down chevron for up chevron when clicked
-- show transparent up chevron when within section
+- show transparent up chevron when within section only when scrolled past certain point (front img)
 
-LARGER SCREEN:
-- blue menu bar changes to grey bulletin bar with only menu icon on scroll
 */
 
 .back-top {
