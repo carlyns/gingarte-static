@@ -35,14 +35,33 @@ h1 {
   font-size: 1.5em;
   padding-bottom: 2%;
 }
-.days {
-  font-weight: 500;
-}
-.locations .info {
+
+.locations .info { /* ALL THE CONTENT THAT SHOWS/HIDES ON CLICK*/
   display: none;
 }
 .locations i {
   color: rgba(3,94,123,1);
+}
+
+
+.info p {
+  /* line height does not change spacing between p tags.  but it's too messy to use a bunch of </br> tags.  padding does't reduce it either.  */
+}
+
+.days {
+  font-weight: 500;
+}
+.important {
+  font-size: 0.8em;
+  font-style: italic;
+}
+.info {
+}
+.fineprint {
+  font-size: 0.8em;
+}
+#information-hp {
+  display: none;
 }
 
 
@@ -180,7 +199,7 @@ h1 {
 }
 
 
-/*------MEDIA QUERIES START HERE ----------*/
+/*------------MEDIA QUERIES START HERE --------------*/
 @media screen and (min-width: 550px) {
   .main {
     width: 700px;
@@ -213,6 +232,9 @@ h1 {
     padding: 1%;
     float: left;
   }
+
+
+
   .quote {
     margin: 5% 0;
   }
@@ -244,7 +266,7 @@ h1 {
     width: 90%;
   }
   .locations .grid3 {
-    width: 22%;
+    width: 20%;
     margin-right: 4%;
   }
   .locations .grid3:last-child {
@@ -253,6 +275,24 @@ h1 {
   .neighborhood .extra {
     display: none;
   }
+
+  .info { /*-- THE CLASS FOR OLD DROPDOWN FORMAT --*/
+    position: relative;
+    height: 300px;
+  }
+  .fineprint {
+    position: absolute;
+    bottom: -20px;
+  }
+
+
+  .information {/*-- THE CLASS FOR OLD DROPDOWN FORMAT --*/
+  }
+  #information-hp {
+    clear: both;
+    background-color: rgba(3,94,123,1);
+  }
+
   .payment .grid4 {
     position: relative;
     height: 300px

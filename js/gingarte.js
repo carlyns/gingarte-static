@@ -1,4 +1,3 @@
-// confirm("Ready to learn about webify?  Click OK");
 // confirm("Are you having fuuuuuuun?");
 
 // ALL FUNCTIONS LUMPED TOGETHER??
@@ -42,6 +41,17 @@ $(".menu-icon").click(function() {
     $("#cl-info").toggle();
   });
 
+
+
+
+/*---- TOGGLING THE CLASS LOCATIONS - NEW FORMAT
+
+------ THIS WORKS, BUT COMMENTED OUT.  OTHERWISE THE PREVIOUS JS DROPDOWN BEHAVIORS DON'T WORK ---------
+
+  $("#hp").click(function() {
+    $("#information-hp").toggle();
+  });
+ ------------ */
 }
 
 
@@ -65,7 +75,7 @@ $(".menu-icon").click(function() {
   /* ------- MENU BAR ON MOBILE: TOGGLING BETWEEN REGULAR BAR AND FIXED TO TOP BAR
   $(".menu-bar").click(function() {
     $(this).toggleClass("fixed-bar");
-  });-------- */
+  }); -------- */
 
   /* ------- CURRENTLY TESTING THIS ... (ABOUT PAGE TOGGLES DON'T WORK IF THIS IS ACTIVE)
   $(".menu-bar").scrollTop(); // returns pixel value at menubar
