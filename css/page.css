@@ -44,6 +44,9 @@
   width: 100%;
 }
 
+footer {
+}
+
 /* -- MEDIA QUERIES START HERE -- */
 @media screen and (min-width: 770px) {
   .grid4 {
