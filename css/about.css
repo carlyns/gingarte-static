@@ -71,6 +71,9 @@ a:hover .fa-chevron-down {
 	clear: both;
 	font-size: 1.1em;
 }
+.group a {
+	color: white;
+}
 .chicago {
 	display: none;
 	padding: 0 3%;
