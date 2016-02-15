@@ -3,12 +3,6 @@
 // ALL FUNCTIONS LUMPED TOGETHER??
 var main = function() {
 
-// TOGGLING THE MOBILE MENU
-$(".menu-icon").click(function() {
-  $(".dropdown").toggle();
-});
-
-
 
   // TOGGLING THE BRAZIL SECTION
   $(".toggle-brazil").click(function() {
@@ -105,6 +99,25 @@ $(".menu-icon").click(function() {
     $(".menu-bar").toggleClass("fixed-bar");
   }
   --------- */
+
+
+  //get the position of the header
+var headerTopOffset = $(".menu-bar").offset().top;
+$(window).scroll(function () {
+    //if the position of the page is greater than where the header starts
+    if ($(window).scrollTop() > headerTopOffset) {
+        //make it sticky
+        $(".mobilemenu").addClass("mobilemenu-fixed");
+    } else {
+        //no more sticky
+        $(".mobilemenu").removeClass("mobilemenu-fixed");
+    }
+});
+
+// TOGGLING THE MOBILE MENU
+$(".menu-icon").click(function() {
+  $(".dropdown").toggle();
+});
 
 
 // SMOOTH SCROLLING TO ANCHORS ON PAGE

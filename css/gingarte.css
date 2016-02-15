@@ -100,7 +100,6 @@ COLLAPSIBLE SECTIONS:
   width: 100%;
   overflow: auto;
   box-shadow: 1px 5px 5px rgba(1,1,1,1);
-  position: relative;
 }
 .menu-bar a {
   color: rgba(251,252,255,1);
@@ -109,18 +108,43 @@ COLLAPSIBLE SECTIONS:
   float: left;
   width: 10%;
 }
+.menu-bar .latest-news {
+  width: 80%;
+  float: left;
+}
+.menu-bar .latest-news a {
+  border: 1px solid white;
+  padding: 1%;
+}
+.arrow-icon {
+  float: right;
+  width: 10%;
+}
+.mobilemenu {
+}
+.mobilemenu-fixed {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
 .dropdown {
   display: none;
   text-transform: uppercase;
   font-size: 1.8em;
   text-align: left;
-  width: 40%;
-  height: 246px;
+  width: 100%;
+  height: 300px;
   clear: both;
-  background-color: rgba(3,94,123,0.5);
-  position: absolute;
-  top: 360px;
+  background-color: rgba(3,94,123,0.95);
 }
+/* so the dropdown menu sticks with the menu bar location */
+.mobilemenu .dropdown {
+  position: absolute;
+}
+.mobilemenu-fixed .dropdown {
+  position: static;
+}
+
 .dropdown a {
   color: rgba(251,252,255,1);
 }
@@ -136,30 +160,6 @@ COLLAPSIBLE SECTIONS:
   padding-left: 5%;
   font-size: .5em;
   overflow: scroll /* put this in the dropdown div*/
-}
-.menu-bar .latest-news {
-  width: 80%;
-  float: left;
-}
-.menu-bar .latest-news a {
-  border: 1px solid white;
-  padding: 1%;
-}
-.arrow-icon {
-  float: right;
-  width: 10%;
-}
-.fixed-bar {
-  background-color: rgba(3,94,123,1);
-  text-align: center;
-  padding: 15px 0;
-  width: 100%;
-  overflow: auto;
-  position: fixed;
-  top: 0px;
-}
-.fixed-bar a {
-  color: rgba(251,252,255,1);
 }
 
 
